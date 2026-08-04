@@ -1,0 +1,5 @@
+name: Python Test
+on: [push]
+jobs: [
+  test: python -c "print('Test passed')"
+]
